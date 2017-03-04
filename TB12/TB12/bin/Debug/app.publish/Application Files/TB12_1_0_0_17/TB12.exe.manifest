@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TB12.exe" version="1.0.0.17" publicKeyToken="ca9eaee74e5f0c78" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TB12" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TB12.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TB12.exe" size="644560">
+      <assemblyIdentity name="TB12" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q/GORRc74cuEo9s7ADgvMCRPCyrf7zTvszvGgVywOMo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TB12.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-GG42OOE\KD" issuerKeyHash="1ce46bfb246e507251742a7feea0cedb8d54718f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>K25UMQ/uMuBkQ4U3AW/6UeX4r7t+6QaFt4hkAQZQI3Y=</DigestValue></Reference></SignedInfo><SignatureValue>fqsTup2DbVztunzzVmST6C2d0SQUmsLlylGqsXB4HeMJ+vvz9V8fCa/AyI23e33VfZpKK2c59CQn+kzXmlRKEilc63dTpcftlYzdoNQ/RfkmnZVfzlE3gCYWhhNb4SdLpC2cyWEFyinAG99vfnxcQJUUEQyFBKmb1bYsXPfH3vk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nzibUvbd6yvmW5zuu4x/yPnSPa60cIl324J0a0tueW47UMn1qIc7z6CPJHeALcS9AqP0pN9z4QAYD1INiVvFoq6VNqjbYyltunQsrupShHYuC0RWUrUHP+v5Qcn0nRSCb+r3wu3w8DdDyhiLLJ1suucc9wz6pJkg+C845tgE9R0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="76235006016488b78506e97ebbaff8e551fa6f0137854364e032ee0f31546e2b" Description="" Url=""><as:assemblyIdentity name="TB12.exe" version="1.0.0.17" publicKeyToken="ca9eaee74e5f0c78" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GG42OOE\KD</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2C9ZWYBrLnnoKAKNjj+vN7JwjXR6gQ+KG1JnbSE5SfI=</DigestValue></Reference></SignedInfo><SignatureValue>fXvExZnknk7D23LJztBbccCLsyisenwHruFp3H51ttwYVu2107tzfFxe6drerwPXevFHHc6ZlWnS7V63p+AIiZXdxmisz8PNuloVpOqroNAX/rHPfGZOu/+8uwAeGWCvm1zwVQF4+d7HZvuXcB2drveaczxPyQZdgAjqod3xHUY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nzibUvbd6yvmW5zuu4x/yPnSPa60cIl324J0a0tueW47UMn1qIc7z6CPJHeALcS9AqP0pN9z4QAYD1INiVvFoq6VNqjbYyltunQsrupShHYuC0RWUrUHP+v5Qcn0nRSCb+r3wu3w8DdDyhiLLJ1suucc9wz6pJkg+C845tgE9R0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQVJhPHYRh/4dCYgv+ks4HbjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEcARwA0ADIATwBPAEUAXABLAEQwHhcNMTcwMjAyMjA1NzIwWhcNMTgwMjAzMDI1NzIwWjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEcARwA0ADIATwBPAEUAXABLAEQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ84m1L23esr5luc7ruMf8j50j2utHCJd9uCdGtLbnluO1DJ9aiHO8+gjyR3gC3EvQKj9KTfc+EAGA9SDYlbxaKulTao22Mpbbp0LK7qUoR2LgtEVlK1Bz/r+UHJ9J0Ugm/q98Lt8PA3Q8oYiyydbLrnHPcM+qSZIPgvOObYBPUdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAB6xsVpaydTNcky+r0xuYbE1CiNbBMkLrJTx65+13xVFbgapzht017Eqxza4ROaEiPxPnb02cR5VK6NxhM3cXJBsqf0caQucGnkPPMtD0XouMMzGYO1CB6TM+rdAwk+punowMvawTvYye/OpfrnN34+nkxByNuXLVp2bxpP0YIW8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
